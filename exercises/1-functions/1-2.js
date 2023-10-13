@@ -1,16 +1,15 @@
 "use strict";
 
-window.onresize = drawBox;
+window.onresize = drawCircle;
 
-drawBox();
+drawCircle();
 
-function drawBox() {
+function drawCircle() {
 	let canvas = document.querySelector("canvas");
 	canvas.width = window.innerWidth;
 	canvas.height = window.innerHeight;
 	let context = canvas.getContext("2d");
 
-	context.lineWidth = 5;
 	context.strokeStyle = "#FF0000";
 	context.beginPath();
 	context.moveTo(50, 50);
