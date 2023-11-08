@@ -8,7 +8,7 @@ function drawCircles() {
 	let i = 1;
 
 	while (i <= 4) {
-		Utils.fillCircle(i * 100, 100, 50);
+		Utils.fillCircle(i * 100, i*100, i*20);
 		i++;
 	}
 }
