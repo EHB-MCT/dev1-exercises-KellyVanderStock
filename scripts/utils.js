@@ -23,7 +23,7 @@ export function fillCircle(x, y, r) {
  * @param {number} x1 startpunt op x van de lijn 
  * @param {number} y1 startpunt op y van de lijn 
  * @param {number} x2 eindpunt op x van de lijn
- * @param {number} y2 eindpunt op x van de lijn
+ * @param {number} y2 eindpunt op y van de lijn
  */
 export function drawLine(x1,y1,x2,y2){
     context.beginPath();
