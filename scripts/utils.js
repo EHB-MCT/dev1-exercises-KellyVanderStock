@@ -1,6 +1,10 @@
 "use strict";
 import context from "./context.js";
 
+
+
+
+//demo circles
 /**
  *
  * @param {number} x
@@ -13,6 +17,7 @@ export function fillCircle(x, y, r) {
 	context.fill();
 }
 
+//3-1-a
 /**
  * draw a line between 2 coordinates
  * @param {number} x1 startpunt op x van de lijn 
@@ -26,3 +31,5 @@ export function drawLine(x1,y1,x2,y2){
     context.lineTo(x2,y2);
     context.stroke();
 }
+
+//3-1-b

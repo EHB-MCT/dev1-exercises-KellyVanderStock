@@ -13,12 +13,12 @@ function draw() {
 }
 
 function drawGrid() {
-    let i = ;
-    while () {
-        let x = ;
+    let i =25;
+    while (i<350) {
+        let x = (i+50);
         let y = x;
         Utils.drawLine(75, y, 325, y);
         Utils.drawLine(x, 75, x, 325);
-        i = ;
+        i = i+50;
     }
 }
