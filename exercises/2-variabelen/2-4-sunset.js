@@ -21,17 +21,17 @@ function drawSunset() {
 	let canvasWidth = context.canvas.width;
 
 	context.fillStyle = "#ea9e24";
-	context.fillRect(margin, margin,canvasWidth,canvasHeight/4); /*yellow*/
+	context.fillRect(margin, margin, canvasWidth, canvasHeight / 4); /*yellow*/
 	context.fillStyle = "#fc701b";
-	context.fillRect(margin,canvasHeight/4,canvasWidth,canvasHeight/4); /*orange*/
+	context.fillRect(margin, canvasHeight / 4, canvasWidth, canvasHeight / 4); /*orange*/
 	context.fillStyle = "#a51f02";
-	context.fillRect(margin, (canvasHeight/4)*2,canvasWidth,canvasHeight/4); /*red*/
+	context.fillRect(margin, (canvasHeight / 4) * 2, canvasWidth, canvasHeight / 4); /*red*/
 
 	context.fillStyle = "#ffffc8";
 	context.beginPath();
-	context.arc(canvasWidth/2, (canvasHeight/4)*3, canvasWidth/4, 0,  Math.PI, true);
+	context.arc(canvasWidth / 2, (canvasHeight / 4) * 3, canvasWidth / 4, 0, Math.PI, true);
 	context.fill();
 
 	context.fillStyle = "#00198c";
-	context.fillRect(margin,(canvasHeight/4)*3, canvasWidth,canvasHeight/4); /*blue*/
+	context.fillRect(margin, (canvasHeight / 4) * 3, canvasWidth, canvasHeight / 4); /*blue*/
 }
