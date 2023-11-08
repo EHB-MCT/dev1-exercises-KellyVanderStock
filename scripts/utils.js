@@ -32,4 +32,17 @@ export function drawLine(x1,y1,x2,y2){
     context.stroke();
 }
 
-//3-1-b
+//3-1-g
+
+/**
+ * Draws bigger circles starting from center of canvas
+ * @param {number} x x-coordinate center of the circle
+ * @param {number} y y-coordinate center of the circle
+ * @param {number} r radius of the circle
+ */
+
+export function strokeCircle(x,y,r){
+    context.beginPath();
+    context.arc(x,y,r,0,Math.PI*2)
+    context.stroke();
+}
