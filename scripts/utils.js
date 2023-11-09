@@ -57,3 +57,21 @@ export function strokeCircle(x, y, r) {
 export function rgb(r,g,b) {
 	return "rgb(" + r + "," + g + "," + b + ")";
 }
+
+
+//3-1-p
+
+/**
+ * The function draws the stroke of a circle AND fills it
+ * @param {number} x 
+ * @param {number} y 
+ * @param {number} r 
+ */
+
+export function fillAndStrokeCircle(x,y,r){
+	context.beginPath();
+	context.arc(x, y, r, 0, Math.PI * 2);
+	context.stroke();
+	context.fill()
+
+}
