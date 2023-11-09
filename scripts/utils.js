@@ -43,3 +43,17 @@ export function strokeCircle(x, y, r) {
 	context.arc(x, y, r, 0, Math.PI * 2);
 	context.stroke();
 }
+
+//3-1-n
+
+/**
+ * formats an rgb, based on parameters
+ * @param {number} r  red number between 0 and 255 (255,0,0)
+ * @param {number} g  green number between 0 and 255 (0,255,0)
+ * @param {number} b  blue number between 0 and 255 (0,0,255)
+ * @returns 
+ */
+
+export function rgb(r,g,b) {
+	return "rgb(" + r + "," + g + "," + b + ")";
+}
