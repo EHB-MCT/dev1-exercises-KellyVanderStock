@@ -75,3 +75,21 @@ export function fillAndStrokeCircle(x,y,r){
 	context.fill()
 
 }
+
+//3-1-r
+
+/**
+ * The function draws the stroke of a circle AND fills it
+ * @param {*} x x-coordinate of center of ellipse
+ * @param {*} y y-coordinate of center of ellipse
+ * @param {*} rX radius on x of ellipse
+ * @param {*} rY radius on y of ellipse
+ */
+
+export function fillAndStrokeEllipse(x,y,rX,rY){
+context.beginPath();
+context.ellipse(x, y, rX, rY, Math.PI /2, 0, 2 * Math.PI)
+context.stroke();
+context.fill();
+
+}
