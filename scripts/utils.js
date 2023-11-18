@@ -93,3 +93,5 @@ context.stroke();
 context.fill();
 
 }
+
+//hsl functie maken zoals demo
