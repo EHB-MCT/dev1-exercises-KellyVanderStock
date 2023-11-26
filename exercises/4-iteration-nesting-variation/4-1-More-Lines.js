@@ -18,6 +18,11 @@ function draw() {
 function drawMoreLines(){
 
    
+
+
+
+
+
   for( let x=0; x<=60;x++){
     Utils.drawLine(0+x*10,0,600-x*10,300 );
 

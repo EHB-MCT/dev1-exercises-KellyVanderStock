@@ -51,29 +51,27 @@ export function strokeCircle(x, y, r) {
  * @param {number} r  red number between 0 and 255 (255,0,0)
  * @param {number} g  green number between 0 and 255 (0,255,0)
  * @param {number} b  blue number between 0 and 255 (0,0,255)
- * @returns 
+ * @returns
  */
 
-export function rgb(r,g,b) {
+export function rgb(r, g, b) {
 	return "rgb(" + r + "," + g + "," + b + ")";
 }
-
 
 //3-1-p
 
 /**
  * The function draws the stroke of a circle AND fills it
- * @param {number} x 
- * @param {number} y 
- * @param {number} r 
+ * @param {number} x
+ * @param {number} y
+ * @param {number} r
  */
 
-export function fillAndStrokeCircle(x,y,r){
+export function fillAndStrokeCircle(x, y, r) {
 	context.beginPath();
 	context.arc(x, y, r, 0, Math.PI * 2);
 	context.stroke();
-	context.fill()
-
+	context.fill();
 }
 
 //3-1-r
@@ -86,12 +84,11 @@ export function fillAndStrokeCircle(x,y,r){
  * @param {*} rY radius on y of ellipse
  */
 
-export function fillAndStrokeEllipse(x,y,rX,rY){
-context.beginPath();
-context.ellipse(x, y, rX, rY, Math.PI /2, 0, 2 * Math.PI)
-context.stroke();
-context.fill();
-
+export function fillAndStrokeEllipse(x, y, rX, rY) {
+	context.beginPath();
+	context.ellipse(x, y, rX, rY, Math.PI / 2, 0, 2 * Math.PI);
+	context.stroke();
+	context.fill();
 }
 
 //hsl functie maken zoals demo
